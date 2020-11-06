@@ -1,11 +1,11 @@
 # Biomedical-Text-Summarizer
 A biomedical text summarizer to extract knowledge from a full-text journal article and generate a summary.
-\n
+
 #### Objectives:
-●	Build an extractive summarizer 
-●	Employ Unsupervised Machine Learning
-●	Use Word biomedical word embeddings
-●	Evaluate model using Rouge-N
+- ●	Build an extractive summarizer 
+- ●	Employ Unsupervised Machine Learning
+- ●	Use Word biomedical word embeddings
+- ●	Evaluate model using Rouge-N
 
 ### Background:
 The Whitehouse and global teams of leading researchers prepared the COVID-19 Open Research Dataset (CORD-19). It's curated and maintained by the Semantic Scholar team at the Allen Institute for AI to support text mining and NLP research. This dataset contains over 200,000 scholarly articles, including over 100,000 with full text, about COVID-19, SARS-CoV-2, and related coronaviruses. The intent of this dataset is to crowdsource answers against the Covid-19 pandemic.
