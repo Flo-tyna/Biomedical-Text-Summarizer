@@ -1,6 +1,7 @@
 # Biomedical-Text-Summarizer
 A biomedical text summarizer to extract knowledge from a full-text journal article and generate a summary.
-Objectives:
+\n
+#### Objectives:
 ●	Build an extractive summarizer 
 ●	Employ Unsupervised Machine Learning
 ●	Use Word biomedical word embeddings
