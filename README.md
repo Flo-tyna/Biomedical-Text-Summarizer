@@ -51,3 +51,22 @@ Biomedical information in scientific journals are increasing at a rapid pace due
 #### Future Work:
 Many people in the pharma and med-tech industry are faced with the tedious daily task of synthesizing and summarizing biomedical texts from multiple sources. For future work, I intend on building an app to automate this task. Initially, I have embedded the BioBert embeddings in order to fine tune the Bert summary model. The Spacy model works well. However, I have to find a way to automate the process so that I can evaluate at least 100 articles. Once I evaluate and optimize its performance, I will build a streamlit app which uses Spacy and Bert Summaries to summarize full text articles with Name entity recognition. 
 
+### References
+https://analyticsindiamag.com/hands-on-guide-to-extractive-text-summarization-with-bertsum/
+https://towardsdatascience.com/understanding-automatic-text-summarization-1-extractive-methods-8eb512b21ecc
+https://analyticsindiamag.com/hands-on-guide-to-extractive-text-summarization-with-bertsum/
+https://analyticsindiamag.com/hands-on-guide-to-extractive-text-summarization-with-bertsum/
+https://arxiv.org/abs/1908.08345
+https://arxiv.org/abs/1908.08345
+https://hackernoon.com/summarization-with-wine-reviews-using-spacy-b49f18399577
+https://pkghosh.wordpress.com/2019/06/27/six-unsupervised-extractive-text-summarization-techniques-side-by-side/
+https://pypi.org/project/rouge-score/
+https://towardsdatascience.com/a-quick-introduction-to-text-summarization-in-machine-learning-3d27ccf18a9f
+https://towardsdatascience.com/how-bert-leverage-attention-mechanism-and-transformer-to-learn-word-contextual-relations-5bbee1b6dbdb
+https://towardsdatascience.com/how-bert-leverage-attention-mechanism-and-transformer-to-learn-word-contextual-relations-5bbee1b6dbdb
+https://towardsdatascience.com/how-to-apply-bert-in-scientific-domain-2d9db0480bd9
+https://towardsdatascience.com/how-to-apply-bert-in-scientific-domain-2d9db0480bd9
+https://towardsdatascience.com/understanding-automatic-text-summarization-1-extractive-methods-8eb512b21ecc
+https://towardsdatascience.com/understanding-automatic-text-summarization-1-extractive-methods-8eb512b21ecc
+https://www.analyticsvidhya.com/blog/2018/11/introduction-text-summarization-textrank-python/
+
