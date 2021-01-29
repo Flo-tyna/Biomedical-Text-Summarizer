@@ -11,7 +11,7 @@ A biomedical text summarizer to extract knowledge from a full-text journal artic
 The Whitehouse and global teams of leading researchers prepared the COVID-19 Open Research Dataset (CORD-19). It's curated and maintained by the Semantic Scholar team at the Allen Institute for AI to support text mining and NLP research. This dataset contains over 200,000 scholarly articles, including over 100,000 with full text, about COVID-19, SARS-CoV-2, and related coronaviruses. The intent of this dataset is to crowdsource answers against the Covid-19 pandemic.
 Data Source:
 A subset of data- the bioRxiv was selected from tdocument_parses.tar.gz: A collection of JSON files that contain full text parses of a subset of CORD-19 papers. The biorxiv folder contains 88,000 articles. But I have chosen only the first 600 articles for this project. The Schema of the biorxiv dataset is as follows:
-Data Dictionary
+### Data Dictionary
 - cord_uid	The unique CORD 19 User Identification number assigned to the article	(object)
 - title	The title of the article	(object)
 - Pmcid	The PMC article unique identification number	(object)
