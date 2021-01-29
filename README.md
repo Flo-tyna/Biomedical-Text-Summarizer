@@ -25,11 +25,11 @@ The EDA phase consisted of converting 600 json files into a nested dictionary an
 Ten broad topic areas were created via topic modelling. Most papers are between 3000-5000 words in length. 98% of the papers are under 10,000 words in length. Similarly, 98% of the papers have ~2500 unique words. It takes 15 minutes to read the average article. Reading time ranges from 3 minutes to almost an hour. 
 Data Modelling and Evaluation:
 After EDA was completed, 5 summarization modules were tested to determine the best module and algorithm type for summarization. The modules were TextRank-Gensim, NLTK, Gensim-Summarizer, Spacy and BertSum. The working of all the models involved this generalized process model 
-  •	Splitting the document into sentences
-  •	Pre-processing each sentence to remove noise. This includes tokenization, stop word removal, and lemmatization
-  •	Assigning algorithmic specific score to each sentence
-  •	Sorting the sentences in descending order of the score to retain the top n, where n is a configurable parameter.
-  •	combining the top n sentences to form the summary. All these algorithms follow the steps mentioned above. However, the scoring logic is different for each      algorithm.
+  - Splitting the document into sentences
+  - Pre-processing each sentence to remove noise. This includes tokenization, stop word removal, and lemmatization
+  - Assigning algorithmic specific score to each sentence
+  - Sorting the sentences in descending order of the score to retain the top n, where n is a configurable parameter.
+  - combining the top n sentences to form the summary. All these algorithms follow the steps mentioned above. However, the scoring logic is different for each      algorithm.
   
 ### TextRank :
 A graph-based ranking model for text processing was used in order to find the most relevant sentences in text and also to find keywords. This model possessed the lowest Rouge metrics because it was not customizable with the word embeddings. 
